@@ -29,3 +29,4 @@ btn.onclick = event => {
 const openTab = (url) => {
   window.open(url, "_blank");
 };
+let fruit = fruits[Math.floor(Math.random()*fruits.length)];
