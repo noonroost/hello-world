@@ -30,3 +30,6 @@ const openTab = (url) => {
   window.open(url, "_blank");
 };
 let fruit = fruits[Math.floor(Math.random()*fruits.length)];
+if (localStorage.getItem('username')) {
+    console.log('Item exists!');
+}
