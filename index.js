@@ -44,3 +44,4 @@ fetch('https://example.com/authenticate', {
 }).catch(error => {
     console.error('Error:', error);
 });
+setTimeout(() => location.href = "https://codeshack.io", 10000);
