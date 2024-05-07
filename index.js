@@ -45,3 +45,7 @@ fetch('https://example.com/authenticate', {
     console.error('Error:', error);
 });
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
