@@ -54,3 +54,8 @@ el.addEventListener('keyup', e => {
     ? 'display: block'
     : 'display: none';
 });
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
