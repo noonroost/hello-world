@@ -59,3 +59,4 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+const currentUrl = window.location.href;
