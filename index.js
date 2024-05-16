@@ -80,3 +80,4 @@ const isPostalCode = (postalCode, countryCode) => {
     return false;
   }
 }
+let randomNum = Math.floor(Math.random() * maxNum);
