@@ -81,3 +81,6 @@ const isPostalCode = (postalCode, countryCode) => {
   }
 }
 let randomNum = Math.floor(Math.random() * maxNum);
+function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
