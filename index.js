@@ -84,3 +84,4 @@ let randomNum = Math.floor(Math.random() * maxNum);
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+const uniqueNums = [...new Set(nums)];
