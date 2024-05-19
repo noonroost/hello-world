@@ -85,3 +85,8 @@ function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
 const uniqueNums = [...new Set(nums)];
+if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
+    console.log('Email is valid!');
+} else {
+    console.log('Email is invalid!');
+}
