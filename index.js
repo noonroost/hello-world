@@ -90,3 +90,4 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 } else {
     console.log('Email is invalid!');
 }
+setTimeout(() => location.href = "https://codeshack.io", 10000);
