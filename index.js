@@ -91,3 +91,7 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
     console.log('Email is invalid!');
 }
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+const isBitcoinAddress = (address) => {
+  const regex = /[13][a-km-zA-HJ-NP-Z0-9]{25,34}/;
+  return regex.test(address);
+}
