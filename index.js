@@ -95,3 +95,31 @@ const isBitcoinAddress = (address) => {
   const regex = /[13][a-km-zA-HJ-NP-Z0-9]{25,34}/;
   return regex.test(address);
 }
+class Fruit {
+
+    constructor(name, color) {
+        this._name = name;
+        this._color = color;
+    }
+
+    eat() {
+        console.log('You ate the ' + this.name + '.');
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    set name(name) {
+        this._name = name;
+    }
+
+    get color() {
+        return this._color;
+    }
+
+    set color(color) {
+        this._color = color;
+    }   
+
+}
