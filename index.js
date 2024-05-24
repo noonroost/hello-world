@@ -126,3 +126,7 @@ class Fruit {
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
