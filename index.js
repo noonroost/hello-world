@@ -131,3 +131,4 @@ const isRippleAddress = (address) => {
   return regex.test(address);
 }
 console.log(localStorage.getItem('username'));
+const array = [...Array(10).keys()].map(i => i + 1);
