@@ -135,3 +135,6 @@ const array = [...Array(10).keys()].map(i => i + 1);
 function randomBetween(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+function truncateString(str, num) {
+  return str.length > num ? str.slice(0, num) + "..." : str;
+}
