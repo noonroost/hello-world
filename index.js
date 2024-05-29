@@ -139,3 +139,6 @@ function truncateString(str, num) {
   return str.length > num ? str.slice(0, num) + "..." : str;
 }
 const uniqueNums = [...new Set(nums)];
+let newArr = oldArr.map(function(item) {
+  return item + 1;
+});
