@@ -154,3 +154,4 @@ window.scroll({
     left: 0, 
     behavior: 'smooth' 
 });
+let uniqueArr = [...new Set(arr)];
