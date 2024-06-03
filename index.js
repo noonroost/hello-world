@@ -155,3 +155,6 @@ window.scroll({
     behavior: 'smooth' 
 });
 let uniqueArr = [...new Set(arr)];
+function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
