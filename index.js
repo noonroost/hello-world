@@ -172,3 +172,16 @@ const isEthereumAddress = (address) => {
 function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
+const onScrollStop = callback => {
+  let isScrolling;
+  window.addEventListener(
+    'scroll',
+    e => {
+      clearTimeout(isScrolling);
+      isScrolling = setTimeout(() => {
+        callback();
+      }, 150);
+    },
+    false
+  );
+};
