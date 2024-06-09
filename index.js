@@ -186,3 +186,4 @@ const onScrollStop = callback => {
   );
 };
 const uniqueNums = [...new Set(nums)];
+let fruit = fruits[Math.floor(Math.random()*fruits.length)];
