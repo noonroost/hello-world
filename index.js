@@ -187,3 +187,7 @@ const onScrollStop = callback => {
 };
 const uniqueNums = [...new Set(nums)];
 let fruit = fruits[Math.floor(Math.random()*fruits.length)];
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
