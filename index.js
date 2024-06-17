@@ -220,3 +220,6 @@ const onScrollStop = callback => {
     false
   );
 };
+function sortByProperty(arr, property) {
+  return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
+}
