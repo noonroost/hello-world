@@ -240,3 +240,4 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+let uniqueArr = [...new Set(arr)];
