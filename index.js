@@ -241,3 +241,4 @@ function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
 let uniqueArr = [...new Set(arr)];
+console.log(localStorage.getItem('username'));
