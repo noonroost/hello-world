@@ -242,3 +242,6 @@ function isEmptyObject(obj) {
 }
 let uniqueArr = [...new Set(arr)];
 console.log(localStorage.getItem('username'));
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
