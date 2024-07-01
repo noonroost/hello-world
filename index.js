@@ -250,3 +250,6 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 } else {
     console.log('Email is invalid!');
 }
+let newArr = oldArr.map(function(item) {
+  return item + 1;
+});
