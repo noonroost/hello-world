@@ -253,3 +253,7 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 let newArr = oldArr.map(function(item) {
   return item + 1;
 });
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
