@@ -301,3 +301,6 @@ const isPostalCode = (postalCode, countryCode) => {
     return false;
   }
 }
+const openTab = (url) => {
+  window.open(url, "_blank");
+};
