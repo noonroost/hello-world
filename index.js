@@ -327,3 +327,4 @@ const isPostalCode = (postalCode, countryCode) => {
     return false;
   }
 }
+const currentUrl = window.location.href;
