@@ -336,3 +336,4 @@ function toTitleCase(str) {
     return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
   });
 }
+console.log(localStorage.getItem('username'));
