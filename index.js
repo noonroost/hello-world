@@ -350,3 +350,7 @@ function generateArray(start, end) {
 const openTab = (url) => {
   window.open(url, "_blank");
 };
+const httpsRedirect = () => {
+  if (location.protocol !== 'https:')
+    location.replace('https://' + location.href.split('//')[1]);
+};
