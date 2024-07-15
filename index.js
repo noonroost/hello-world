@@ -363,3 +363,10 @@ const debounce = (fn, time) => {
 };
 console.log(localStorage.getItem('username'));
 let fruit = fruits[Math.floor(Math.random()*fruits.length)];
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
