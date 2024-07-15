@@ -362,3 +362,4 @@ const debounce = (fn, time) => {
   };
 };
 console.log(localStorage.getItem('username'));
+let fruit = fruits[Math.floor(Math.random()*fruits.length)];
