@@ -361,3 +361,4 @@ const debounce = (fn, time) => {
     timeout = setTimeout(() => fn.apply(this, args), time);
   };
 };
+console.log(localStorage.getItem('username'));
