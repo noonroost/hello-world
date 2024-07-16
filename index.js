@@ -418,3 +418,6 @@ fetch('https://example.com/authenticate', {
 function capitalizeWords(str) {
   return str.replace(/\w/g, function(l){ return l.toUpperCase() });
 }
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
