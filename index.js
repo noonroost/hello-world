@@ -379,3 +379,7 @@ function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
 console.log(localStorage.getItem('username'));
+const httpsRedirect = () => {
+  if (location.protocol !== 'https:')
+    location.replace('https://' + location.href.split('//')[1]);
+};
