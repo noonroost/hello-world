@@ -378,3 +378,4 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
+console.log(localStorage.getItem('username'));
