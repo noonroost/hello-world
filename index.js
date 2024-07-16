@@ -370,3 +370,8 @@ const onClickOutside = (elementId, callback) => {
     if (!element.contains(e.target)) callback();
   });
 };
+if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
+    console.log('Email is valid!');
+} else {
+    console.log('Email is invalid!');
+}
