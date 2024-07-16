@@ -375,3 +375,6 @@ if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
 } else {
     console.log('Email is invalid!');
 }
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
