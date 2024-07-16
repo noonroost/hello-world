@@ -415,3 +415,6 @@ fetch('https://example.com/authenticate', {
 }).catch(error => {
     console.error('Error:', error);
 });
+function capitalizeWords(str) {
+  return str.replace(/\w/g, function(l){ return l.toUpperCase() });
+}
