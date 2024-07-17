@@ -421,3 +421,4 @@ function capitalizeWords(str) {
 function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
+let isValueInArray = arr.includes(value);
