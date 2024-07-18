@@ -422,3 +422,6 @@ function countOccurences(str, char) {
   return str.split(char).length - 1;
 }
 let isValueInArray = arr.includes(value);
+function randomBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
