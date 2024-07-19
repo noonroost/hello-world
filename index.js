@@ -425,3 +425,10 @@ let isValueInArray = arr.includes(value);
 function randomBetween(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
