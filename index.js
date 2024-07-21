@@ -439,3 +439,6 @@ const onClickOutside = (elementId, callback) => {
     if (!element.contains(e.target)) callback();
   });
 };
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
