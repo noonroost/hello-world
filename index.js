@@ -460,3 +460,6 @@ const isEthereumAddress = (address) => {
   return regex.test(address);
 }
 let randomNum = Math.floor(Math.random() * maxNum);
+function countOccurences(str, char) {
+  return str.split(char).length - 1;
+}
