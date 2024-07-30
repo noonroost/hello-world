@@ -495,3 +495,7 @@ const currentUrl = window.location.href;
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
 }
+const isRippleAddress = (address) => {
+  const regex = /r[0-9a-zA-Z]{33}/;
+  return regex.test(address);
+}
