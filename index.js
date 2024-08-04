@@ -539,3 +539,6 @@ const debounce = (fn, time) => {
   };
 };
 console.log(localStorage.getItem('username'));
+const openTab = (url) => {
+  window.open(url, "_blank");
+};
