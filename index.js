@@ -553,3 +553,4 @@ fetch('https://example.com/authenticate', {
 }).catch(error => {
     console.error('Error:', error);
 });
+const array = [...Array(10).keys()].map(i => i + 1);
