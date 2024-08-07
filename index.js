@@ -554,3 +554,14 @@ fetch('https://example.com/authenticate', {
     console.error('Error:', error);
 });
 const array = [...Array(10).keys()].map(i => i + 1);
+function countdownTimer(minutes) {
+  let seconds = minutes * 60;
+  const countdown = setInterval(function() {
+    seconds--;
+    if (seconds < 0) {
+      clearInterval(countdown);
+    } else {
+      console.log(seconds + " seconds left");
+    }
+  }, 1000);
+}
