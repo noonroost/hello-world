@@ -565,3 +565,6 @@ function countdownTimer(minutes) {
     }
   }, 1000);
 }
+function capitalizeWords(str) {
+  return str.replace(/\w/g, function(l){ return l.toUpperCase() });
+}
