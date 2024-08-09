@@ -568,3 +568,6 @@ function countdownTimer(minutes) {
 function capitalizeWords(str) {
   return str.replace(/\w/g, function(l){ return l.toUpperCase() });
 }
+const openTab = (url) => {
+  window.open(url, "_blank");
+};
