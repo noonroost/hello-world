@@ -571,3 +571,6 @@ function capitalizeWords(str) {
 const openTab = (url) => {
   window.open(url, "_blank");
 };
+function generateArray(start, end) {
+  return Array(end - start + 1).fill().map((_, idx) => start + idx)
+}
