@@ -604,3 +604,4 @@ fetch('https://example.com/authenticate', {
 function capitalizeWords(str) {
   return str.replace(/\w/g, function(l){ return l.toUpperCase() });
 }
+const array = [...Array(10).keys()].map(i => i + 1);
