@@ -606,3 +606,10 @@ function capitalizeWords(str) {
 }
 const array = [...Array(10).keys()].map(i => i + 1);
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
