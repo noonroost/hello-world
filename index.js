@@ -625,3 +625,10 @@ const isEthereumAddress = (address) => {
 function truncateString(str, num) {
   return str.length > num ? str.slice(0, num) + "..." : str;
 }
+const onClickOutside = (elementId, callback) => {
+  const element = document.getElementById(elementId);
+
+  document.addEventListener("click", (e) => {
+    if (!element.contains(e.target)) callback();
+  });
+};
