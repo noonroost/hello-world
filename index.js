@@ -665,3 +665,8 @@ const onClickOutside = (elementId, callback) => {
     if (!element.contains(e.target)) callback();
   });
 };
+el.addEventListener('keyup', e => {
+  msg.style = e.getModifierState('CapsLock')
+    ? 'display: block'
+    : 'display: none';
+});
