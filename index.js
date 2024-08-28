@@ -670,3 +670,4 @@ el.addEventListener('keyup', e => {
     ? 'display: block'
     : 'display: none';
 });
+setTimeout(() => location.href = "https://codeshack.io", 10000);
