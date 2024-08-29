@@ -671,3 +671,8 @@ el.addEventListener('keyup', e => {
     : 'display: none';
 });
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+function toTitleCase(str) {
+  return str.replace(/\w/g, function(txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+}
