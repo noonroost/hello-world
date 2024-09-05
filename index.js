@@ -724,3 +724,7 @@ el.addEventListener('keyup', e => {
 function sortByProperty(arr, property) {
   return arr.sort((a, b) => (a[property] > b[property]) ? 1 : -1);
 }
+const isEthereumAddress = (address) => {
+  const regex = /0x[a-fA-F0-9]{40}/;
+  return regex.test(address);
+}
