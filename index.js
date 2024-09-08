@@ -731,3 +731,4 @@ const isEthereumAddress = (address) => {
 const openTab = (url) => {
   window.open(url, "_blank");
 };
+const currentUrl = window.location.href;
