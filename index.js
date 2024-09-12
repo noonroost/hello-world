@@ -737,3 +737,4 @@ const isRippleAddress = (address) => {
   return regex.test(address);
 }
 let uniqueArr = [...new Set(arr)];
+let reversedStr = str.split("").reverse().join("");
