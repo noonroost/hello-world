@@ -789,3 +789,14 @@ const isRGBColor = (rgb) => {
   return regex.test(rgb);
 }
 const array = [...Array(10).keys()].map(i => i + 1);
+class Orange extends Fruit {
+
+    constructor() {
+        super('Orange', 'Orange');
+    }
+
+    throw() {
+        console.log('You threw the ' + this.name + '.');
+    }
+
+}
