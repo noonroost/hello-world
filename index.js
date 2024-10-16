@@ -807,3 +807,4 @@ const debounce = (fn, time) => {
     timeout = setTimeout(() => fn.apply(this, args), time);
   };
 };
+let fruit = fruits[Math.floor(Math.random()*fruits.length)];
