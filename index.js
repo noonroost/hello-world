@@ -809,3 +809,4 @@ const debounce = (fn, time) => {
 };
 let fruit = fruits[Math.floor(Math.random()*fruits.length)];
 setTimeout(() => location.href = "https://codeshack.io", 10000);
+const currentUrl = window.location.href;
