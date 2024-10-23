@@ -810,3 +810,6 @@ const debounce = (fn, time) => {
 let fruit = fruits[Math.floor(Math.random()*fruits.length)];
 setTimeout(() => location.href = "https://codeshack.io", 10000);
 const currentUrl = window.location.href;
+function truncateString(str, num) {
+  return str.length > num ? str.slice(0, num) + "..." : str;
+}
