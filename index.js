@@ -813,3 +813,6 @@ const currentUrl = window.location.href;
 function truncateString(str, num) {
   return str.length > num ? str.slice(0, num) + "..." : str;
 }
+let newArr = oldArr.map(function(item) {
+  return item + 1;
+});
