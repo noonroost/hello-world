@@ -816,3 +816,8 @@ function truncateString(str, num) {
 let newArr = oldArr.map(function(item) {
   return item + 1;
 });
+if (/\S+@\S+\.\S+/.test('david@codeshack.io')) {
+    console.log('Email is valid!');
+} else {
+    console.log('Email is invalid!');
+}
