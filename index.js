@@ -830,3 +830,8 @@ function truncateString(str, num) {
 }
 console.log(localStorage.getItem('username'));
 console.log(localStorage.getItem('username'));
+window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth' 
+});
