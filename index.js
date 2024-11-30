@@ -839,3 +839,11 @@ const isEthereumAddress = (address) => {
   const regex = /0x[a-fA-F0-9]{40}/;
   return regex.test(address);
 }
+const randomString = (length) => {
+  let result = "";
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return result;
+};
