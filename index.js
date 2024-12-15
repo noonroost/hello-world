@@ -858,3 +858,4 @@ function countdownTimer(minutes) {
     }
   }, 1000);
 }
+const currentUrl = window.location.href;
